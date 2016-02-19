@@ -7,11 +7,11 @@
 
 int main ()
 {
-  int n;
+  int x,n;
   scanf("%d",&n);
 
   printf("%d\n",n);
-
-  return n % 3;
+  x=n%3;
+  return x;
 
 }
