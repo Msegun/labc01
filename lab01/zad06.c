@@ -9,7 +9,7 @@ int main()
   printf("%i %i %i %i \n",a,b,c,d);
 
   int i,N=7;
-  int tab[7]={0,3,4,5,2,7,8};
+  int tab[7]={0,1,2,3,4,5,6};
 
   for( i=0 ; i<N ; tab[i++]=i )
     printf("%d ",tab[i]);
