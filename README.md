@@ -16,10 +16,10 @@
 * [x] [zadanie2] (lab02/zad02.c)
 * [ ] [zadanie3] (lab02/zad03.c)
 3. [Laboratorium 3](lab03):
-* [x] [zadanie0] (lab02/zad00.c)
-* [ ] [zadanie1] (lab02/zad01.c)
-* [ ] [zadanie2] (lab02/zad02.c)
-* [ ] [zadanie3] (lab02/zad03.c)
+* [x] [zadanie1] (lab03/zad01.c)
+* [ ] [zadanie2] (lab03/zad02.c)
+* [ ] [zadanie3] (lab03/zad03.c)
+* [ ] [zadanie4] (lab03/zad04.c)
 
 
 | TYP     |     wartosc dolna|      wartosc gorna|      ziarno|     precyzja|     format we/wy |
