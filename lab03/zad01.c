@@ -6,13 +6,23 @@
 
 int main()
 {
+  FILE *plik;
+  if ((plik = fopen("tabela.txt", "w" )) == NULL )
+  {
+      printf("Blad otwarcia pliku");
+      return 0;
+  }
+  fprintf( plik , "|TYP     |     wartosc dolna|      wartosc gorna|      ziarno|     precyzja|     format we/wy|\n" );
+  fprintf( plik , "|--------------------------------------------------------------------------------------------|\n" );
+  fprintf( plik , "|Short   |     %i|     %i|     |     |     i|\n",SHRT_MIN , SHRT_MAX );
+  fprintf( plik , "|Int     |     %i|     %i|     |     |     i|\n", INT_MIN , INT_MAX );
+  fprintf( plik , "|Long    |     %li|     %li|     |     |     li|\n", LONG_MIN , LONG_MAX );
+  fprintf( plik , "|Long long    |     %lli|     %lli|     |     |     lli|\n", LLONG_MIN , LLONG_MAX );
+  fprintf( plik , "|Float    |     %e|     %e|     %e|     %i|     e f|\n", FLT_MIN , FLT_MAX , FLT_EPSILON , FLT_DIG  );
+  fprintf( plik , "|Double    |     %le|     %le|     %le|     %i|     le lf|\n", DBL_MIN , DBL_MAX , DBL_EPSILON , DBL_DIG  );
+  fprintf( plik , "|Long double    |     %Le|     %Le|     %Le|     %i|     le lf|\n", LDBL_MIN , LDBL_MAX , LDBL_EPSILON , LDBL_DIG  );
+  fprintf( plik , "|--------------------------------------------------------------------------------------------|\n" );
+  fclose(plik);
 
-  printf("SHORT_MIN :  '%i' SHORT_MAX : '%i' \n", SHRT_MIN , SHRT_MAX );
-  printf("INT_MIN :  '%i' INT_MAX : '%i' \n", INT_MIN , INT_MAX );
-  printf("LONG_MIN :  '%li' LONG_MAX : '%li' \n", LONG_MIN , LONG_MAX );
-  printf("LLONG_MIN :  '%lli' LLONG_MAX : '%lli' \n", LLONG_MIN , LLONG_MAX  );
-  printf("FLT_MIN:  '%e' FLT_MAX : '%e' FLT_EPSILON : '%e' FLT_DIG '%i'\n", FLT_MIN , FLT_MAX , FLT_EPSILON , FLT_DIG  );
-  printf("DBL_MIN:  '%le' DBL_MAX : '%le' DBL_EPSILON : '%e' DBL_DIG : '%i' \n", DBL_MIN , DBL_MAX , DBL_EPSILON , DBL_DIG);
-  printf("LDBL_MIN:  '%Le' LDBL_MAX : '%Le' LDBL_EPSILON: '%Le' LDBL_DIG: '%i'\n", LDBL_MIN , LDBL_MAX , LDBL_EPSILON , LDBL_DIG);
   return 0;
 }
