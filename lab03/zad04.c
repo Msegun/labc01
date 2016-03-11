@@ -29,5 +29,5 @@ int main()
       printf ("%i. '%Lf' do '%Le' \n",i, c, c);
       i++;
   }
-  return 0;
+  
 }
