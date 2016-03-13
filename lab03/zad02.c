@@ -1,3 +1,4 @@
+//W każdym typie liczbowym znaleźć możliwie małe dane, na których wynik jakiegoś działania matematycznego jest już niepoprawny.
 #include <stdio.h>
 #include <limits.h>
 #include <float.h>
