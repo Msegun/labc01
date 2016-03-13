@@ -1,6 +1,15 @@
 // codeschool.com
 // github markdowns table
-
+//Napisać program, który bada poznane typy liczbowe w C; t.zn. ustala
+//ilość bajtów, przeznaczonych na zmienną (operator sizeof),
+//największą i najmniejszą wartość liczby,
+//,,ziarno'', czyli najmniejszą taką liczbę x, że 1.0+x≠1.0 ,
+//,,precyzję'', czyli maksymalną liczbę cyfr dziesiętnych po kropce 
+//dla następujących typów: SHORT, INT, LONG, LONG LONG, FLOAT, DOUBLE, LONG DOUBLE.
+//Dla znalezienia wartości tych stałych należy użyć plików nagłówkowych 
+//dla typów całkowitych -- limits.h ,
+//dla typów rzeczywistych -- float.h . 
+//Postarać się o czytelny i ładny wydruk tych informacji przez program (np. w postaci dobrze przemyślanej tabelki).
 #include <stdio.h>
 #include <limits.h>
 #include <float.h>
