@@ -1,3 +1,4 @@
+//Sprawdzić i wyjaśnić działanie następujących fragmentów programów:
 #include <stdio.h>
 
 int main()
