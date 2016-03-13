@@ -16,7 +16,7 @@
 
 int main() {
   printf("|%11s|%21s|%21s|%13s|%10s|%11s|\n", "TYP", "MINIMUM", "Maksimum", "ZIARNO", "PRECYZJA", "WE/WY");
-  printf("|-----------|---------------------|---------------------|-------------|----------|-----------|\n");
+  printf("|-----------|---------------------|---------------------|-------------|----------|-----------|\n");//(11*'-')bo w tym elemencie tabeli ustaliem sobie dugosc %11s, w reszcie podobnie
   printf("|%11s|%21i|%21i|%13c|%10c|%11s|\n", "short", SHRT_MIN, SHRT_MAX, ' ', ' ', "i");
   printf("|%11s|%21i|%21i|%13c|%10c|%11s|\n", "int", INT_MIN, INT_MAX, ' ', ' ', "i");
   printf("|%11s|%21li|%21li|%13c|%10c|%11s|\n", "long", LONG_MIN, LONG_MAX, ' ', ' ', "li");
