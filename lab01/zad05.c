@@ -1,3 +1,4 @@
+//Co wydrukuje następujący fragment programu
 #include <stdio.h>
 
 int main()
