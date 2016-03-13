@@ -1,3 +1,4 @@
+//Eksperymentalnie zbadać ,,ziarno'' w różnych typach rzeczywistych. W tym celu należy wykonać pętlę postaci podobnej do poniższej: 
 #include <stdio.h>
 
 int main()
