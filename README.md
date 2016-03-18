@@ -22,8 +22,12 @@
 * [x] [zadanie4] (lab03/zad04.c)
 4. [Laboratorium 4](lab04):
 * [x] [zadanie1] (lab04/zad01.c)
-* [ ] [zadanie1 wersja2] (lab04/zad01wer2.c)
+* [x] [zadanie1 wersja2] (lab04/zad01wer2.c)
 * [ ] [zadanie2] (lab04/zad02.c)
+5. [Laboratorium 5](lab05):
+* [x] [zadanie1] (lab05/zad01.c)
+* [ ] [zadanie1 wersja2] (lab05/zad02.c)
+
 
 
 |        TYP|              MINIMUM|             Maksimum|       ZIARNO|  PRECYZJA|      WE/WY|
