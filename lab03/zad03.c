@@ -14,7 +14,7 @@ int main() {
   printf("Rzutowanie DBM_MAX do (int)DBL_MAX: '%e' do '%i'\n", DBL_MAX, (int)DBL_MAX);
   //Tutaj podobnie otrzymamy maksymalny int. Double jest wieksze od float
   printf("Rzutowanie LDBL_MAX do (double)LDBL_MAX: '%Le' do '%e'\n", LDBL_MAX, (double)LDBL_MAX);
-  //trzymany wynik 'inf' prawdopodobnie świadczy o tym ze różnica miedzy LDBL_MAX a DBL_MAX
+  //otrzymany wynik 'inf' prawdopodobnie świadczy o tym ze różnica miedzy LDBL_MAX a DBL_MAX
   //jest tak gigantyczna ze kompilator upraszcza wypisując infinity (Jest to jakas liczba  1.costam  *10^3100 conajmniej)
   printf("Rzutowanie INT_MAX do (float)FLT_MAX: '%i' do '%e'\n", INT_MAX, (float)INT_MAX);
   //Pokaże nam odpowiednik INT_MAX po rzutowaniu na float ponieważ float>int dodatkowo pokaże ja z dana potęgą po przecinku
