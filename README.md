@@ -26,7 +26,10 @@
 * [ ] [zadanie2] (lab04/zad02.c)
 5. [Laboratorium 5](lab05):
 * [x] [zadanie1] (lab05/zad01.c)
-* [ ] [zadanie1 wersja2] (lab05/zad02.c)
+* [x] [zadanie1 wersja2] (lab05/zad02.c)
+6. [Laboratorium 6](lab06):
+* [ ] [zadanie1] (lab06/zad01.c)
+* [ ] [zadanie1 wersja2] (lab06/zad02.c)
 
 
 
