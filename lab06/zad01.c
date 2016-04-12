@@ -12,6 +12,7 @@
 //niczego nie zmieniać -- tylko wypełnić ciała tych funkcji,których jedyną zawartością jest komentarz.
 //Definiowane funkcje (z wyjątkiem funkcji druk) nie mogą niczego pisać ani czytać.
 //wbzyl.inf.ug.edu.pl/rails2/jp/list_adt/14
+//wbzyl.inf.ug.edu.pl/c
 
 #include <stdio.h>
 #include <stdlib.h>
