@@ -29,6 +29,8 @@
 * [x] [zadanie2] (lab05/zad02.c)
 6. [Laboratorium 6](lab06):
 * [x] [zadanie1] (lab06/zad01.c)
+7. [Laboratorium 6](lab06):
+* [ ] [zadanie1] (lab07/zad01.c)
 
 
 
