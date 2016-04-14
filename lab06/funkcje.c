@@ -201,8 +201,8 @@ Boolean  form5 (drzewo* drz) {
 /***************************************************/
 
 char  wylicz(drzewo drz, char tab[26]) {
-  if(drzewo->drz==zz)
-  return '\n';
+}
+
 }
 
 /***************************************************/

@@ -72,11 +72,7 @@ int znajdz_nazwisko(char na[NAZW_MAX+1], char im[IMIE_MAX+1], int *p)
   /* do danego nazwiska  na  znajduje w spisie imie  im  oraz pensje  p
      jesli znajdzie, to zwraca 1, jesli nie, to 0 */
     int *a;
-    a = bsearch(na, spis, IL_OSOB, sizeof(osoba), porownanie);
-    if (a = NULL)
-	   return 0;
-    else
-    {
+    a = bsearch(na, spis, IL_OSOB, sizeof(osoba), porownanie);//bsearch jeszcze nie dziala walczymy
 	    osoba *osoba_a;
 	    osoba_a = (osoba *) a;
       int i;
@@ -89,7 +85,6 @@ int znajdz_nazwisko(char na[NAZW_MAX+1], char im[IMIE_MAX+1], int *p)
         }
       }
 	    return 1;
-    }
 }
 //=======================================================
 int znajdz_imie(char im[NAZW_MAX+1], char na[IMIE_MAX+1], int *p)
