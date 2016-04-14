@@ -28,9 +28,9 @@ typedef struct{
 } osoba;
 osoba spis[IL_OSOB];
 //=======================================================
-void utworz_spis(void)
+void utworz_spis(char *nazwapliku)
 {
-  FILE* baza = fopen("baza_danych.txt", "r");
+  FILE* baza = fopen(nazwapliku, "r");
   if(baza==NULL) printf("\n ZLE\n\n");
   for(int i=0;i<IL_OSOB;i++)
   {
@@ -64,20 +64,32 @@ void sortuj_spis(void)
        fprintf(baza, "%20s", spis[i].nazwisko);
        fprintf(baza, "%20i\n", spis[i].pensja);
      }
+    fclose(baza);
 }
 //=======================================================
 int znajdz_nazwisko(char na[NAZW_MAX+1], char im[IMIE_MAX+1], int *p)
 {
   /* do danego nazwiska  na  znajduje w spisie imie  im  oraz pensje  p
      jesli znajdzie, to zwraca 1, jesli nie, to 0 */
-     int i=0;
-     while(i<IL_OSOB && strcmp(na, spis[i].nazwisko) != 0)
-       i++;
-     if(i == IL_OSOB) return 0;
-     else if(strcmp(na, spis[i].nazwisko)==0)
-       strcpy(im, spis[i].imie);
-     *p = spis[i].pensja;
-     return 1;
+    int *a;
+    a = bsearch(na, spis, IL_OSOB, sizeof(osoba), porownanie);
+    if (a = NULL)
+	   return 0;
+    else
+    {
+	    osoba *osoba_a;
+	    osoba_a = (osoba *) a;
+      int i;
+      for(i=0; i<IL_OSOB; i++)
+      {
+        if(strcmp(spis[i].nazwisko,na) == 0)
+        {
+          strcpy(im, spis[i].imie);
+	        *p = spis[i].pensja;
+        }
+      }
+	    return 1;
+    }
 }
 //=======================================================
 int znajdz_imie(char im[NAZW_MAX+1], char na[IMIE_MAX+1], int *p)
@@ -98,11 +110,11 @@ int znajdz_imie(char im[NAZW_MAX+1], char na[IMIE_MAX+1], int *p)
    	return 0;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
   char odpowiedz, im[NAZW_MAX+1], na[IMIE_MAX+1];
   int p;
-  utworz_spis();
+  utworz_spis(argv[1]);
   sortuj_spis();
   do
   {
