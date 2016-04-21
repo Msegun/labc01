@@ -30,7 +30,8 @@
 6. [Laboratorium 6](lab06):
 * [x] [zadanie1] (lab06/zad01.c)
 7. [Laboratorium 6](lab06):
-* [ ] [zadanie1] (lab07/zad01.c)
+* [x] [zadanie1] (lab07/odkonca.c)
+* [ ] [zadanie2] (lab07/porzadkuj.c)
 
 
 
