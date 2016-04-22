@@ -32,7 +32,12 @@
 * [ ] [zadanie2] (lab06)
 7. [Laboratorium 7](lab07):
 * [x] [zadanie1] (lab07/odkonca.c)
-* [ ] [zadanie2] (lab07/porzadkuj.c)
+* [x] [zadanie2] (lab07/porzadkuj.c)
+8. [Laboratorium 8](lab08):
+* [x] [zadanie1] (lab08/zad01.c)
+* [x] [zadanie2] (lab08/zad02.c)
+* [ ] [zadanie3] (lab08/zad03.c)
+* [ ] [zadanie4] (lab08/zad04.c)
 
 
 
