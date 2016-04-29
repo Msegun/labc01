@@ -23,7 +23,7 @@
 4. [Laboratorium 4](lab04):
 * [x] [zadanie1] (lab04/zad01.c)
 * [x] [zadanie1 wersja2] (lab04/zad01wer2.c)
-* [ ] [zadanie2] (lab04/zad02.c)
+* [x] [zadanie2] (lab04/zad02.c)
 5. [Laboratorium 5](lab05):
 * [x] [zadanie1] (lab05/zad01.c)
 * [x] [zadanie2] (lab05/zad02.c)
@@ -36,7 +36,7 @@
 8. [Laboratorium 8](lab08):
 * [x] [zadanie1] (lab08/zad01.c)
 * [x] [zadanie2] (lab08/zad02.c)
-* [ ] [zadanie3] (lab08/zad03.c)
+* [x] [zadanie3] (lab08/zad03.c)
 * [ ] [zadanie4] (lab08/zad04.c)
 
 

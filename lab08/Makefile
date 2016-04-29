@@ -1,4 +1,4 @@
-sources = odkonca.c porzadkuj.c
+sources = zad03. zad04.c
 
 programs = $(basename $(sources))
 objects = $(addsuffix .o, $(programs))
