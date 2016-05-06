@@ -37,7 +37,7 @@
 * [x] [zadanie1] (lab08/zad01.c)
 * [x] [zadanie2] (lab08/zad02.c)
 * [x] [zadanie3] (lab08/zad03.c)
-* [ ] [zadanie4] (lab08/zad04.c)
+* [x] [zadanie4] (lab08/zad04.c)
 
 
 
