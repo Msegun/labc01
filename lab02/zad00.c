@@ -20,6 +20,5 @@ int main ()
   printf(" Wynik 13 ^ 9  wynosi  %i \n", 13 ^ 9);
 
 
-  return 0;
 
 }

@@ -25,5 +25,5 @@ int main() {
   long double wynik7;
   wynik7 = 0.00000000000000001/2.0;
   printf("LONG DOUBLE 0.00000000000000001/2.0 = %Lf\n", wynik7); // LDBL_MIN =0.000000
-  return 0;
+  
 }

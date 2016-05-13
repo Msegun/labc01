@@ -14,7 +14,7 @@
 * [x] [zadanie0] (lab02/zad00.c)
 * [x] [zadanie1] (lab02/zad01.c)
 * [x] [zadanie2] (lab02/zad02.c)
-* [ ] [zadanie3] (lab02/zad03.c)
+* [x] [zadanie3] (lab02/zad03.c)
 3. [Laboratorium 3](lab03):
 * [x] [zadanie1] (lab03/zad01.c)
 * [x] [zadanie2] (lab03/zad02.c)
@@ -38,6 +38,10 @@
 * [x] [zadanie2] (lab08/zad02.c)
 * [x] [zadanie3] (lab08/zad03.c)
 * [x] [zadanie4] (lab08/zad04.c)
+9. [Laboratorium 9](lab09):
+* [x] [zadanie1] (lab08/zad01.php)
+* [ ] [zadanie2] (lab08/zad02.php)
+* [x] [zadanie3] (lab08/zad03.php)
 
 
 
@@ -51,3 +55,7 @@
 |      float|         1.175494e-38|         3.402823e+38| 1.192093e-07|         6|       e, f|
 |     double|        2.225074e-308|        1.797693e+308| 2.220446e-16|        15|     le, lf|
 |long double|       3.362103e-4932|       1.189731e+4932| 1.084202e-19|        18|     Le, Lf|
+
+|     QSORT|BUBBLESORT|
+|----------|----------|
+|  0.010260|  1.971165|

@@ -1,4 +1,4 @@
-//Napisać program, który wczytuje tekst aż do EOF, a następnie drukuje bitowe obrazy wczytanych znaków. 
+//Napisać program, który wczytuje tekst aż do EOF, a następnie drukuje bitowe obrazy wczytanych znaków.
 
 #include <stdio.h>
 
@@ -14,13 +14,14 @@ int main ()
 
       if(z != '\n')
       {
-        printf("wartosc znaku %c wynosi %i ",z,z);
+        printf("wartosc znaku %c wynosi %i \n",z,z);
         forma_binarna_znaku(z);
+        printf("\n");
       }
       z = getchar();
   }
 
-  return 0;
+
 }
 
 void forma_binarna_znaku(char f)

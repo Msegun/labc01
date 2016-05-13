@@ -34,5 +34,5 @@ int main()
       printf ("%i. '%Lf' do '%Le' \n",i, c, c);
       i++;
   }
-  
+
 }
