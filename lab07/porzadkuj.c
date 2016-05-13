@@ -42,9 +42,13 @@ void utworz_spis(char *nazwapliku, int ile)
 
 int porownanie(const void  * a, const void * b)
 {
-    osoba *osoba_a, *osoba_b;
-    osoba_a=(osoba*) a;
-    osoba_b=(osoba*) b;
+
+  osoba *osoba_a  = (osoba *) a;
+  osoba *osoba_b  = (osoba *) b;
+
+  if(strcmp(osoba_a->nazwisko, osoba_b->nazwisko)==0)
+    return strcmp(osoba_a->imie, osoba_b->imie);
+  else
     return strcmp(osoba_a->nazwisko, osoba_b->nazwisko);
 }
 
@@ -70,34 +74,34 @@ void sortuj_spis(int ile)
 void bubble_sort(int ile)
 {
   int i, j;
-char temp[MAX_DL_NA+1];
-for(i = 1; i <= ile; i++)
-{
-  for(j = i;j < ile; j++)
+  char temp[MAX_DL_NA+1];
+  for(i = 1; i <= ile; i++)
   {
-    if(strcmp(spis[j-1].nazwisko, spis[j].nazwisko) > 0)
+    for(j = i;j < ile; j++)
     {
-      strcpy(temp, spis[j-1].nazwisko);
-      strcpy(spis[j-1].nazwisko, spis[j].nazwisko);
-      strcpy(spis[j].nazwisko, temp);
-    }
-    else if(strcmp(spis[j-1].nazwisko, spis[j].nazwisko) == 0)
-    {
-      strcpy(temp, spis[j-1].imie);
-      strcpy(spis[j-1].imie, spis[j].imie);
-      strcpy(spis[j].imie, temp);
+      if(strcmp(spis[j-1].nazwisko, spis[j].nazwisko) > 0)
+      {
+        strcpy(temp, spis[j-1].nazwisko);
+        strcpy(spis[j-1].nazwisko, spis[j].nazwisko);
+        strcpy(spis[j].nazwisko, temp);
+      }
+      else if(strcmp(spis[j-1].nazwisko, spis[j].nazwisko) == 0)
+      {
+        strcpy(temp, spis[j-1].imie);
+        strcpy(spis[j-1].imie, spis[j].imie);
+        strcpy(spis[j].imie, temp);
+      }
     }
   }
-}
-FILE* baza_b = fopen("bubblesort.txt", "w");
-for(i = 0; i < ile; i++)
-{
-  fprintf(baza_b, "%20s ", spis[i].imie);
-  fprintf(baza_b, "%20s ", spis[i].nazwisko);
-  fprintf(baza_b, "%20i\n", spis[i].pensja);
-}
-fclose(baza_b);
-}
+  FILE* baza_b = fopen("bubblesort.txt", "w");
+  for(i = 0; i < ile; i++)
+  {
+    fprintf(baza_b, "%20s ", spis[i].imie);
+    fprintf(baza_b, "%20s ", spis[i].nazwisko);
+    fprintf(baza_b, "%20i\n", spis[i].pensja);
+  }
+  fclose(baza_b);
+  }
 
 int main (int arg_num, char* arg[])
 { int ile;
