@@ -55,10 +55,7 @@ void sortuj_spis(int ile)
      a w przypadku rownych nazwisk wg imion */
      //zerknij do jentszeja
      //coderay
-     clock_t  pocz = clock();
      qsort(spis, ile, sizeof(osoba), porownanie);
-     clock_t  koniec = clock();
-     printf(" Czas wykonania: %lf sek.\n\n",(double)(koniec-pocz) / CLOCKS_PER_SEC);
      FILE *baza = fopen("posortowane.txt", "w");
      int i;
      for(i = 0; i < ile ; i++)
@@ -70,6 +67,38 @@ void sortuj_spis(int ile)
     fclose(baza);
 }
 
+void bubble_sort(int ile)
+{
+  int i, j;
+char temp[MAX_DL_NA+1];
+for(i = 1; i <= ile; i++)
+{
+  for(j = i;j < ile; j++)
+  {
+    if(strcmp(spis[j-1].nazwisko, spis[j].nazwisko) > 0)
+    {
+      strcpy(temp, spis[j-1].nazwisko);
+      strcpy(spis[j-1].nazwisko, spis[j].nazwisko);
+      strcpy(spis[j].nazwisko, temp);
+    }
+    else if(strcmp(spis[j-1].nazwisko, spis[j].nazwisko) == 0)
+    {
+      strcpy(temp, spis[j-1].imie);
+      strcpy(spis[j-1].imie, spis[j].imie);
+      strcpy(spis[j].imie, temp);
+    }
+  }
+}
+FILE* baza_b = fopen("bubblesort.txt", "w");
+for(i = 0; i < ile; i++)
+{
+  fprintf(baza_b, "%20s ", spis[i].imie);
+  fprintf(baza_b, "%20s ", spis[i].nazwisko);
+  fprintf(baza_b, "%20i\n", spis[i].pensja);
+}
+fclose(baza_b);
+}
+
 int main (int arg_num, char* arg[])
 { int ile;
   if (arg_num == 3)
@@ -78,9 +107,17 @@ int main (int arg_num, char* arg[])
     if(ile>0)
     {
       utworz_spis(arg[1], ile);
+      printf("Ilosc lini w bazie wynosi %i\n", ile);
+      clock_t  pocz1 = clock();
       sortuj_spis(ile);
+      clock_t  koniec1 = clock();
+      clock_t  pocz2 = clock();
+      bubble_sort(ile);
+      clock_t  koniec2 = clock();
+      printf("|%10s|%10s|\n", "QSORT", "BUBBLESORT");
+      printf("|----------|----------|\n");
+      printf("|%10lf|%10lf|\n", (double)(koniec1-pocz1) / CLOCKS_PER_SEC, (double)(koniec2-pocz2) / CLOCKS_PER_SEC);
     }
-    printf("%i", ile);
   }
   else
     printf("\n Niepoprawne wywolanie: './porzadkuj baza_danych.txt posortowane.txt'\n\n");
