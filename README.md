@@ -5,7 +5,7 @@
 
 0. [Zadania ulubione](ulub):
 * [x] [Ulubione zadanie 1 OPEN GL ] (ulub/ulub1)
-* [x] [Ulubione zadaniea 2 MACIERZE w moim przypadku papierze ] (ulub/ulub2)
+* [x] [Ulubione zadania 2 MACIERZE w moim przypadku papierze ] (ulub/ulub2)
 * [x] [Ulubione zadanie 3 Baza danych sortowanie 3] (ulub/ulub3)
 * [x] [Ulubione zadania 4 wartosci zespolone] (ulub/ulub4)
 1. [Laboratorium 1](lab01):
