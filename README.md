@@ -2,6 +2,7 @@
 
 *S. Sokołowski
 *[ Języki Programowania rok I ](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
+
 0. [Zadania ulubione 1](ulub):
 * [x] [Ulubione zadanie 1 OPEN GL ] (ulub/ulub1)
 * [x] [Ulubione zadaniea 2 MACIERZE w moim przypadku papierze ] (ulub/ulub2)
