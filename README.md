@@ -2,10 +2,10 @@
 
 *S. Sokołowski
 *[ Języki Programowania rok I ](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
-0.1. [Zadania ulubione 1](ulub):
-* [x] [zadanie1] (ulub/ulub1/zad01.c)
-* [x] [zadanie2] (ulub/ulub2/zad02.c)
-* [x] [zadanie3] (ulub/ulub3/zad03.c)
+0. [Zadania ulubione 1](ulub):
+* [x] [Ulubione zadanie 1] (ulub/ulub1/zad01.c)
+* [x] [Ulubione zadanie 2] (ulub/ulub2/zad02.c)
+* [x] [Ulubione zadanie 3] (ulub/ulub3/zad03.c)
 1. [Laboratorium 1](lab01):
 * [x] [zadanie1] (lab01/zad01.c)
 * [x] [zadanie2] (lab01/zad02.c)
