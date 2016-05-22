@@ -3,9 +3,10 @@
 *S. Sokołowski
 *[ Języki Programowania rok I ](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
 0. [Zadania ulubione 1](ulub):
-* [x] [Ulubione zadanie 1] (ulub/ulub1/zad01.c)
-* [x] [Ulubione zadanie 2] (ulub/ulub2/zad02.c)
-* [x] [Ulubione zadanie 3] (ulub/ulub3/zad03.c)
+* [x] [Ulubione zadanie 1 OPEN GL ] (ulub/ulub1)
+* [x] [Ulubione zadaniea 2 MACIERZE w moim przypadku papierze ] (ulub/ulub2)
+* [x] [Ulubione zadanie 3 Baza danych sortowanie 3] (ulub/ulub3)
+* [x] [Ulubione zadania 4 wartosci zespolone] (ulub/ulub4)
 1. [Laboratorium 1](lab01):
 * [x] [zadanie1] (lab01/zad01.c)
 * [x] [zadanie2] (lab01/zad02.c)
