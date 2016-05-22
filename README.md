@@ -46,6 +46,10 @@
 * [x] [zadanie1] (lab10/zad01.php)
 * [ ] [zadanie2] (lab10/zad02.php)
 * [ ] [zadanie3] (lab10/zad03.php)
+10. [Laboratorium 11](lab10):
+* [x] [zadanie1] (lab11/zad01.c)
+* [x] [zadanie2] (lab11/zad02.c)
+* [ ] [zadanie3] (lab11/zad03.c)
 
 
 
