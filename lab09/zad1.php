@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-//http://sigma.inf.ug.edu.pl/~kborawski/zad01.php
 <html lang="pl">
 
 <head>
