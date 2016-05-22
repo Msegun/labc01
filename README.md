@@ -39,9 +39,13 @@
 * [x] [zadanie3] (lab08/zad03.c)
 * [x] [zadanie4] (lab08/zad04.c)
 9. [Laboratorium 9](lab09):
-* [x] [zadanie1] (lab08/zad01.php)
-* [ ] [zadanie2] (lab08/zad02.php)
-* [x] [zadanie3] (lab08/zad03.php)
+* [x] [zadanie1] (lab09/zad01.php)
+* [ ] [zadanie2] (lab09/zad02.php)
+* [x] [zadanie3] (lab09/zad03.php)
+10. [Laboratorium 10](lab10):
+* [x] [zadanie1] (lab10/zad01.php)
+* [ ] [zadanie2] (lab10/zad02.php)
+* [ ] [zadanie3] (lab10/zad03.php)
 
 
 
