@@ -4,7 +4,7 @@
 <body>
         <b>Licznik klikniec: </b>
                 <?php session_start();
-                //http://sigma.inf.ug.edu.pl/~kborawski/zad01.php
+                //http://sigma.inf.ug.edu.pl/~kborawski/zad03.php
                 $file = @fopen("ilosc.txt","c+");
                 fscanf($file,"%d",$count);
                 if(!isset($SESSION['hasVisited'])) {
