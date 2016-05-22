@@ -2,7 +2,10 @@
 
 *S. Sokołowski
 *[ Języki Programowania rok I ](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
-
+0.1. [Zadania ulubione 1](ulub):
+* [x] [zadanie1] (ulub/ulub1/zad01.c)
+* [x] [zadanie2] (ulub/ulub2/zad02.c)
+* [x] [zadanie3] (ulub/ulub3/zad03.c)
 1. [Laboratorium 1](lab01):
 * [x] [zadanie1] (lab01/zad01.c)
 * [x] [zadanie2] (lab01/zad02.c)
@@ -50,6 +53,10 @@
 * [x] [zadanie1] (lab11/zad01.c)
 * [x] [zadanie2] (lab11/zad02.c)
 * [ ] [zadanie3] (lab11/zad03.c)
+13. [Laboratorium 13](lab13):
+* [x] [zadanie1] (lab13/zad01.c)
+* [x] [zadanie2] (lab13/zad02.c)
+* [ ] [zadanie3] (lab13/zad03.c)
 
 
 
